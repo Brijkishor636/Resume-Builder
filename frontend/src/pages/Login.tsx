@@ -26,7 +26,7 @@ export default function Login(){
     }
 
     return <div>
-        <div className='flex justify-center items-center min-h-screen bg-gradient-to-r from-green-100 via-gray-100 to-green-100'>
+        <div className='flex justify-center items-center min-h-screen bg-linear-to-r from-green-100 via-gray-100 to-green-100'>
             <form onSubmit={handleSubmit} className="sm:w-[350px] w-full text-center border border-gray-300/60 rounded-2xl px-8 bg-white">
                 <h1 className="text-gray-800 text-3xl mt-10 font-bold">{state === "login" ? "Login" : "Sign up"}</h1>
                 <p className="text-gray-500 text-sm mt-2">Please {state} to continue</p>
